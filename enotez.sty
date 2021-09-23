@@ -77,6 +77,7 @@
 \bool_new:N \l__enotez_hyperfootnotes_bool
 \bool_new:N \l__enotez_hyperbackref_bool
 \bool_new:N \l__enotez_split_bool
+\bool_new:N \l__enotez_runningheads_bool
 \bool_new:N \l__enotez_disable_bool
 
 \tl_new:N   \l__enotez_tmpa_tl
@@ -144,6 +145,7 @@
 \keys_define:nn {enotez}
   {
     backref          .bool_set:N         = \l__enotez_hyperbackref_bool ,
+    runningheads     .bool_set:N         = \l__enotez_runningheads_bool ,
     footnotes        .bool_set:N         = \l__enotez_footnotes_tl ,
     list-name        .tl_set:N           = \l__enotez_list_name_tl ,
     reset            .bool_set:N         = \l__enotez_reset_bool ,
